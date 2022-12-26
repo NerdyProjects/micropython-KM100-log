@@ -17,3 +17,9 @@ That is why there is `run.sh` which runs the micropython script `run.py` in an e
 have been captured. See the script for details.
 
 Feel free to instal the `log_buderus` procd init script on your device.
+
+### References
+I used various PHP implementations to first implement this in lua 4 years ago: https://github.com/NerdyProjects/BuderusWebGatewayLua
+With the updated OpenWRT, the required packages did not fit anymore onto the WDR3600 (well, yes, it might get replaced at some point as well :D)
+Micropython and the required libraries use well less space, so now it works again.
+
