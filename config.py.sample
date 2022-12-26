@@ -1,0 +1,26 @@
+import binascii
+
+urls = [
+  "/heatSources/systemPressure",
+  "/heatSources/numberOfStarts",
+  "/heatSources/workingTime/centralHeating",
+  "/heatSources/hs1/actualModulation",
+  "/heatingCircuits/hc1/pumpModulation",
+  "/system/sensors/temperatures/outdoor_t1",
+  "/system/sensors/temperatures/return",
+  "/system/sensors/temperatures/supply_t1",
+  "/system/sensors/temperatures/supply_t1_setpoint",
+  "/dhwCircuits/dhw1/actualTemp",
+  "/dhwCircuits/dhw1/charge",
+  "/heatingCircuits/hc1/supplyTemperatureSetpoint",
+  "/heatingCircuits/hc1/currentRoomSetpoint",
+  "/heatingCircuits/hc1/temporaryRoomSetpoint",
+  "/heatingCircuits/hc1/operationMode",
+]
+key = binascii.unhexlify('')
+host = 'http://192.168.0.40'
+influxdb = ''
+influxdb_db = ''
+influxdb_user = ''
+influxdb_password = ''
+
